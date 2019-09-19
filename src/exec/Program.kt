@@ -11,4 +11,7 @@ fun main(args: Array<String>) {
     val vcm = VigenereCipherMachine("castles")
     println(vcm.Encrypt("fresh prince"))
     println(vcm.Decrypt("eakmw eakmwi")) // NOT WORKING.....
+
+    val ecm = EnigmaCipherMachine("tonight")
+    println(ecm.Encrypt("Thor: You listen well brother. I *thud*. Loki: I'm listening"))
 }
