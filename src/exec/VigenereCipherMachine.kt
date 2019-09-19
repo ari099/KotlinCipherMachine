@@ -104,7 +104,6 @@ class VigenereCipherMachine : CipherMachine {
      * @return newKey generated key returned
      */
     private fun GenerateKey(length:Int) : String {
-        // complete this method....
         var newKey:String = ""
         var ksIndex = 0
         while (newKey.length < length) {
